@@ -28,5 +28,11 @@ namespace WindowsFormsApplicationGroupDemo
             F2.Show();
 
         }
+
+        private void btnGetForm3_Click(object sender, EventArgs e)
+        {
+            Form F3 = new Form3();
+            F3.Show();
+        }
     }
 }

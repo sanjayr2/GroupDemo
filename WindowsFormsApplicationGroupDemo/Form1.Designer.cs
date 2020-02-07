@@ -30,6 +30,8 @@
         {
             this.btnMain = new System.Windows.Forms.Button();
             this.btnGetForm2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnGetForm3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMain
@@ -52,11 +54,32 @@
             this.btnGetForm2.UseVisualStyleBackColor = true;
             this.btnGetForm2.Click += new System.EventHandler(this.btnGetForm2_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnGetForm3
+            // 
+            this.btnGetForm3.Location = new System.Drawing.Point(467, 589);
+            this.btnGetForm3.Name = "btnGetForm3";
+            this.btnGetForm3.Size = new System.Drawing.Size(1213, 137);
+            this.btnGetForm3.TabIndex = 3;
+            this.btnGetForm3.Text = "View Form 3";
+            this.btnGetForm3.UseVisualStyleBackColor = true;
+            this.btnGetForm3.Click += new System.EventHandler(this.btnGetForm3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2144, 1056);
+            this.Controls.Add(this.btnGetForm3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnGetForm2);
             this.Controls.Add(this.btnMain);
             this.Name = "Form1";
@@ -70,6 +93,8 @@
 
         private System.Windows.Forms.Button btnMain;
         private System.Windows.Forms.Button btnGetForm2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGetForm3;
     }
 }
 
