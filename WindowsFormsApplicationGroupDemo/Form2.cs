@@ -10,23 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplicationGroupDemo
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void btnMain_Click(object sender, EventArgs e)
+        private void btnGoBacktoMain_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World");
-        }
-
-        private void btnGetForm2_Click(object sender, EventArgs e)
-        {
-            Form F2 = new Form2();
-            F2.Show();
-
+            this.Close();
         }
     }
 }
